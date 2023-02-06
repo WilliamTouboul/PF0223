@@ -5,8 +5,8 @@ const navbar_plus = document.querySelector('#navbar_plus')
 
 /* --------------------------------- CURSOR --------------------------------- */
 window.addEventListener('mousemove', function (e) {
-    let x = e.clientX;
-    let y = e.clientY;
+    let x = e.pageX;
+    let y = e.pageY;
 
     cursor.style.top = y + 'px';
     cursor.style.left = x + 'px';
